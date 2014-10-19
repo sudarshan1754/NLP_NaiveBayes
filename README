@@ -1,0 +1,32 @@
+###********************************************************************************###
+  # __author__ = 'sid'                                                             #
+  # This README is written as part of the Natural Language Processing Home Work 4  #
+  # @copyright: Sudarshan Sudarshan (Sid)                                          #
+###********************************************************************************###
+
+I have made use of Python 2.7.3 programming/scripting environment.
+Note: It is better to use an IDE such as Pycharm to run the program. You can download the
+      free(community edition) version of the IDE from this link:
+      http://www.jetbrains.com/pycharm/download/
+
+Before running the program, please install the Natural Language Toolkit from this link:
+http://www.nltk.org/install.html
+
+"NaiveBayes.py" file is the executable file which contains the program for this assignment.
+
+Execution:
+    In the terminal type: python NaiveBayes.py
+
+    Once you run the program, it will ask you for the path/directory name of positive files
+    and then the negative files, as shown below:
+
+    Enter the directory path which has positive files: <enter_path_or_directory_of_pos_files>
+    Enter the directory path which has negative files: <enter_path_or_directory_of_neg_files>
+
+    Once these are provided, the program splits the data for 10 fold cross validation and
+    progress is displayed in the terminal/IDE.
+
+Weka (Optional):
+The folder also contains a file called NLP_IMDb.arff which is an input file for the Weka
+software for the same IMDb dataset used in this project.
+###********************************************************************************###
