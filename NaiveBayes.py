@@ -245,7 +245,7 @@ if __name__ == "__main__":
 
         fold_accuracy = nb.naive_bayes(directories, train_data, each_fold, test_data)
         accuracy.append(fold_accuracy)
-        print "Done with folding: " + str(each_fold + 1)
+        print "Done with folding: " + str(each_fold + 1) + "\tAccuracy: " + str("{0:.2f}".format(fold_accuracy * 100)) + "%"
 
     print "\n-------------------------RESULTS-------------------------"
     print "Average of " + str(no_of_folds) + "-fold Cross validation: " \

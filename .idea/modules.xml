@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/NaiveBayes.iml" filepath="$PROJECT_DIR$/.idea/NaiveBayes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../Stats/StatsWithPython/StatisticsCode/.idea/StatisticsCode.iml" filepath="$PROJECT_DIR$/../../../../Stats/StatsWithPython/StatisticsCode/.idea/StatisticsCode.iml" />
     </modules>
   </component>
 </project>
